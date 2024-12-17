@@ -164,7 +164,8 @@ services:
 
   ui:
 #    image: safeglobal/safe-wallet-web:${UI_VERSION}
-    image: gatewayfm/safe-wallet-web:debug8
+#    image: gatewayfm/safe-wallet-web:debug8
+    image: gatewayfm/safe-wallet-web:haust-v0.1
     env_file:
       - container_env_files/ui.env
     depends_on:
